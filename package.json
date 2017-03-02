@@ -1,0 +1,26 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krothenbaum/blogAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krothenbaum/blogAPI/issues"
+  },
+  "homepage": "https://github.com/krothenbaum/blogAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "morgan": "^1.8.1",
+    "uuid": "^3.0.1"
+  }
+}
